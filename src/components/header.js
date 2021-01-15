@@ -39,7 +39,7 @@ const Header = (title1, date1, temp1) => {
 const headerAppender = (selector) => {
   document
     .querySelector(selector)
-    .appendChild(Header("Lambda Times", "January 12, 2021", "98"));
+    .appendChild(Header("Lambda Times", "January 12, 2021", "48"));
 };
 
 // TASK 2
